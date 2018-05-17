@@ -28,8 +28,6 @@ public class Tron extends Application
 		
 		primaryStage.setScene(new Scene(root,500,500));
 		
-		root.setStyle("-fx-background-color:#000000;");
-		
 		primaryStage.show();
 	}
 }
