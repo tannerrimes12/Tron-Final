@@ -1,0 +1,8 @@
+import javafx.application.*;
+public class Tron 
+{
+	public static void main(String[] args)
+	{
+		launch(args);
+	}
+}
