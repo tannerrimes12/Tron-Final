@@ -12,19 +12,4 @@
 		<list key="textArray">
 		</list>
 	</section>
-<<<<<<< HEAD
-=======
-	<section name="PreferencesImportWizard">
-		<item value="H:\APCS\MyEclipsePreferences.epf" key=""/>
-		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
-			<item value="H:\APCS\MyEclipsePreferences.epf"/>
-		</list>
-	</section>
-	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.Preferences" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
-		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-		</list>
-	</section>
->>>>>>> e3566991c389e2b7edf19f163c15e055f5c16068
 </section>
