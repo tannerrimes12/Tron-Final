@@ -1,6 +1,11 @@
 eclipse.preferences.version=1
 <<<<<<< HEAD
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
+org.eclipse.debug.ui.save_dirty_editors_before_launch=always
+=======
+<<<<<<< HEAD
 =======
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
 >>>>>>> e3566991c389e2b7edf19f163c15e055f5c16068
+>>>>>>> 8c25671a14dcf1ce0ff07dd8dc8351d82a84011c
 preferredTargets=default\:default|

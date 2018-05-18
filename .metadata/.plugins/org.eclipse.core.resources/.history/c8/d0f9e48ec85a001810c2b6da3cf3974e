@@ -1,0 +1,6 @@
+.hbox {
+    -fx-background-color: #000000;
+    -fx-padding: 15
+    -fx-spacing: 10;
+}
+
