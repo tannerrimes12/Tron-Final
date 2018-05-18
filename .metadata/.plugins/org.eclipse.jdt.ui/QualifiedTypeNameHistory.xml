@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.awt.Button"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
 <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
+=======
+<fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
+>>>>>>> 8c25671a14dcf1ce0ff07dd8dc8351d82a84011c
 </qualifiedTypeNameHistroy>
