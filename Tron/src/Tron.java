@@ -1,11 +1,10 @@
+
+
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 public class Tron extends Application
 {
@@ -22,14 +21,18 @@ public class Tron extends Application
 		
 		exit.setOnAction(e -> System.exit(0));
 		
-		HBox root = new HBox();
+		VBox root = new VBox(100);
+		root.getStyleClass().add("vbox");
+		
 		root.getChildren().addAll(start,exit);
 		root.setAlignment(Pos.BOTTOM_CENTER);
 		
-		primaryStage.setScene(new Scene(root,500,500));
 		
-		root.setStyle("-fx-background-color:#000000;");
 		
+		//root.setStyle("-fx-background-color:#000000;");
+		Scene scene = new Scene(root,500,500);
+		root.getStylesheets().add(getClass().getResource("Style.css").toExternalForm());
+		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
 }
