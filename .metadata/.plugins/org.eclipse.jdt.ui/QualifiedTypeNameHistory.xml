@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.awt.Button"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
@@ -13,4 +14,22 @@
 <fullyQualifiedTypeName name="java.util.ResourceBundle.Control"/>
 <fullyQualifiedTypeName name="com.sun.javafx.geom.Point2D"/>
 <fullyQualifiedTypeName name="java.time.Duration"/>
+=======
+<<<<<<< HEAD
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javafx.scene.effect.DropShadow"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
+<fullyQualifiedTypeName name="javafx.scene.text.Text"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.text.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+<fullyQualifiedTypeName name="javafx.scene.input.KeyCode"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.components.CollidableComponent"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.Entity"/>
+<fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.analysis.Value"/>
+>>>>>>> ce636abde39d692761302cb25d3b2d35c9b1715f
 </qualifiedTypeNameHistroy>
+=======
+<qualifiedTypeNameHistroy/>
+>>>>>>> 2e8deff659d95139ec551cfddb8f178198cf96fa

@@ -1,0 +1,29 @@
+import javafx.scene.paint.Color;
+
+public class Player2 extends Controls
+{
+    public static final Color COLOR = Color.RED
+    private Grid grid;
+    private int length;
+    private boolean safe;
+    private Line head;
+    private int xVelocity;
+    private int yVelocity;
+
+    /**
+     * The constructor the Player1. It takes the initial Line, for the head and the Grid
+     * that it lives (and dies) in.
+     *
+     * @param initialLine The {@link Line} to the put the Player1's head on.
+     */
+    public Player2(Grid grid, Line initialLine) 
+    {
+    	super()
+        length = 1;
+        head = initialLine;
+        safe = true;
+        this.grid = grid;
+        xVelocity = 0;
+        yVelocity = 0;
+    } 
+}

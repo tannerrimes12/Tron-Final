@@ -1,0 +1,42 @@
+
+public class Controls 
+{
+	private int xVelocity, yVelocity, length;
+	private Line head;
+	
+	
+	 public Controls(int xVelocity, int yVelocity, int length, Line initialLine) 
+	 {
+	        this.length = length;
+	        head = initialLine;
+	        this.xVelocity = xVelocity;
+	        this.yVelocity = yVelocity;
+	 }
+
+
+    public void setUp() {
+        if (yVelocity == 1 && length > 1) return;
+        xVelocity = 0;
+        yVelocity = -1;
+    }
+
+    public void setDown() {
+        if (yVelocity == -1 && length > 1) return;
+        xVelocity = 0;
+        yVelocity = 1;
+    }
+
+    public void setLeft() {
+        if (xVelocity == 1 && length > 1) return;
+        xVelocity = -1;
+        yVelocity = 0;
+    }
+
+    public void setRight() {
+        if (this.xVelocity == -1 && length > 1) return;
+        xVelocity = 1;
+        yVelocity = 0;
+    }
+    
+
+}

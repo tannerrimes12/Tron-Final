@@ -2,16 +2,29 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
+<<<<<<< HEAD
 		<item value="TronApp" key="selection"/>
+=======
+		<item value="Line" key="selection"/>
+>>>>>>> ce636abde39d692761302cb25d3b2d35c9b1715f
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+<<<<<<< HEAD
 			<item value="BombermanApp"/>
 		</list>
 		<list key="replacehistory">
 			<item value="TronApp"/>
+=======
+			<item value="Point"/>
+			<item value="Snake"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Line"/>
+			<item value="Player1"/>
+>>>>>>> ce636abde39d692761302cb25d3b2d35c9b1715f
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
