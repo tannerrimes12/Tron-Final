@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.awt.Button"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
 <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
-=======
-<fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
->>>>>>> 8c25671a14dcf1ce0ff07dd8dc8351d82a84011c
+<fullyQualifiedTypeName name="com.sun.java.util.jar.pack.Package.File"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.Entities"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.Spawns"/>
+<fullyQualifiedTypeName name="com.sun.javafx.geom.Rectangle"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.EntityFactory"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.Entity"/>
+<fullyQualifiedTypeName name="java.util.ResourceBundle.Control"/>
+<fullyQualifiedTypeName name="com.sun.javafx.geom.Point2D"/>
+<fullyQualifiedTypeName name="java.time.Duration"/>
 </qualifiedTypeNameHistroy>

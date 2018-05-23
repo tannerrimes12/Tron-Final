@@ -26,18 +26,16 @@ public class Tron extends Application
 		
 		root.getChildren().addAll(start,exit);
 		root.setAlignment(Pos.BOTTOM_CENTER);
-		
-		
-<<<<<<< HEAD
-		
+				
 		//root.setStyle("-fx-background-color:#000000;");
 		Scene scene = new Scene(root,500,500);
 		root.getStylesheets().add(getClass().getResource("Style.css").toExternalForm());
 		primaryStage.setScene(scene);
-=======
+
 		root.setStyle("-fx-background-color:#000000;");
 		
->>>>>>> 8c25671a14dcf1ce0ff07dd8dc8351d82a84011c
+		primaryStage.setTitle("Tron");
+
 		primaryStage.show();
 	}
 }

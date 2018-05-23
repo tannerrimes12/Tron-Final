@@ -1,0 +1,11 @@
+import com.almasb.fxgl.entity.EntityFactory;
+
+public class TestFactory implements EntityFactory
+	{
+	
+	}
+
+public enum TronType
+{
+	PLAYER1, PLAYER2
+}

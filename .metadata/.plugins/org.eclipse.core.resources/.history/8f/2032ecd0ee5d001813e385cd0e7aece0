@@ -1,0 +1,15 @@
+import com.almasb.fxgl.entity.Entities;
+import com.almasb.fxgl.entity.EntityFactory;
+
+public class TestFactory implements EntityFactory
+{
+	@Spawns("block")
+	public Entity newBlock(SpawnData data)
+	{
+		return Entities.builder()
+				.from(data)
+				.viewFromNode(new Rectangle(70,70))
+				.build()
+	}
+}
+

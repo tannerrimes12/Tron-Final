@@ -1,0 +1,34 @@
+import com.almasb.fxgl.app.FXGL;
+import com.almasb.fxgl.entity.*;
+import com.almasb.fxgl.entity.components.CollidableComponent;
+import com.almasb.fxgl.extra.entity.components.ExpireCleanComponent;
+import com.almasb.fxgl.extra.entity.components.LiftComponent;
+import com.almasb.fxgl.physics.PhysicsComponent;
+import com.almasb.fxgl.physics.box2d.dynamics.BodyType;
+import com.almasb.fxgl.physics.box2d.dynamics.FixtureDef;
+import javafx.geometry.Point2D;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+import javafx.util.Duration;
+public class TronFactory implements EntityFactory
+{
+	@Spawns("Player1")
+	public Entity newPlayer(SpawnData data)
+	{
+		return Entities.builder()
+				.type(TronType.PLAYER1)
+				.from(data)
+				.viewFromNode(new Rectangle(50,50, Color.DARKRED))
+				.build();
+	}
+	 
+	@Spawns("Player2")
+	public Entity newPlayer2(SpawnData data)
+	{
+		return Entities.builder()
+				.type(TronType.PLAYER2)
+				.from(data)
+				.viewFromNode(new Rectangle(50,50, Color.DARKRED))
+				.build();
+	}
+}

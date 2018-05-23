@@ -1,0 +1,19 @@
+import com.almasb.fxgl.entity.Entities;
+import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.entity.EntityFactory;
+import com.almasb.fxgl.entity.SpawnData;
+import com.almasb.fxgl.entity.Spawns;
+import com.sun.javafx.geom.Rectangle;
+
+public class TestFactory implements EntityFactory
+{
+	@Spawns("block")
+	public Entity newBlock(SpawnData data)
+	{
+		return Entities.builder()
+				.from(data)
+				.viewFromNode(new Rectangle(70,70))
+				.build();
+	}
+}
+
