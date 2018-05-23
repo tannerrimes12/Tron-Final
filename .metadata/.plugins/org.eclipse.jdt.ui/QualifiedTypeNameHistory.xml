@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javafx.scene.effect.DropShadow"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
@@ -12,3 +13,6 @@
 <fullyQualifiedTypeName name="com.almasb.fxgl.entity.Entity"/>
 <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.analysis.Value"/>
 </qualifiedTypeNameHistroy>
+=======
+<qualifiedTypeNameHistroy/>
+>>>>>>> 2e8deff659d95139ec551cfddb8f178198cf96fa
