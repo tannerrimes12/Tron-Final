@@ -1,0 +1,115 @@
+import com.almasb.fxgl.app.GameApplication;
+import com.almasb.fxgl.entity.Entities;
+import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.input.Input;
+import com.almasb.fxgl.input.UserAction;
+import com.almasb.fxgl.settings.GameSettings;
+import javafx.scene.input.KeyCode;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Text;
+import java.util.Map;
+
+public class Tron extends GameApplication
+{
+	private Entity player; 
+	
+	public static void main(String[] args)
+	{
+		launch(args);
+	}
+	
+	protected void initSettings(GameSettings settings)
+	{
+		settings.setWidth(600);
+		settings.setHeight(600);
+		settings.setTitle("Tron");
+	}
+	
+	protected void initGame()
+	{
+		player = Entities.builder()
+				.at(300, 300)
+				.viewFromNode(new Rectangle(25, 25, Color.BLUE))
+				.buildAndAttach(getGameWorld());
+	}
+	
+	protected void initInput()
+	{
+		Input input = getInput();
+		
+		input.addAction(new UserAction("Move Right")
+		{
+			protected void onAction()
+			{
+				player.translateX(5);
+				getGameState().increment("pixelsMoved", +5);
+			}
+		}, KeyCode.RIGHT);
+		
+		input.addAction(new UserAction("Move UP")
+		{
+			protected void onAction()
+			{
+				player.translateY(-5);
+				getGameState().increment("pixelsMoved", +5);
+			}
+		}, KeyCode.UP);
+		
+		input.addAction(new UserAction("Move DOWN")
+		{
+			protected void onAction()
+			{
+				player.translateY(5);
+				getGameState().increment("pixelsMoved", +5);
+			}
+		}, KeyCode.DOWN);
+		
+		input.addAction(new UserAction("Move LEFT")
+		{
+			protected void onAction()
+			{
+				player.translateX(-5);
+				getGameState().increment("pixelsMoved", +5);
+			}
+		}, KeyCode.LEFT);
+	}
+	
+	protected void initUI()
+	{
+		Text textPixels = new Text();
+		
+		textPixels.setTranslateY(50);
+		textPixels.setTranslateX(100);
+		textPixels.textProperty().bind(getGameState().intProperty("pixelsMoved").asString());
+		
+		getGameScene().addUINode(textPixels);
+	}
+	
+	protected void initGameVars(Map<String, Object> vars)
+	{
+		vars.put("Pixels Moved", 0);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

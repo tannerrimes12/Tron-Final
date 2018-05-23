@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="java.awt.Button"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
-<fullyQualifiedTypeName name="javafx.geometry.Pos"/>
-=======
+<fullyQualifiedTypeName name="javafx.scene.effect.DropShadow"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
->>>>>>> 8c25671a14dcf1ce0ff07dd8dc8351d82a84011c
+<fullyQualifiedTypeName name="javafx.scene.text.Text"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.text.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+<fullyQualifiedTypeName name="javafx.scene.input.KeyCode"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.components.CollidableComponent"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.Entity"/>
+<fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.analysis.Value"/>
 </qualifiedTypeNameHistroy>
